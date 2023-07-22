@@ -1,0 +1,14 @@
+{
+    "colorize.enable_search_variables": true,
+    "colorize.include": [
+        "**/*.js",
+        "**/*.ts",
+        "**/*.jsx",
+        "**/*.tsx",
+        "**/*.css",
+        "**/*.scss",
+        "**/*.sass",
+        "**/*.less",
+        "**/*.styl"
+    ]
+}
