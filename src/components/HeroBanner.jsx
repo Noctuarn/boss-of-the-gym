@@ -7,7 +7,7 @@ const HeroBanner = () => {
   return (
     <Box
       sx={{
-        mt: {
+        my: {
           lg: "212px",
           sm: "70px",
         },
@@ -15,7 +15,6 @@ const HeroBanner = () => {
           sm: "50px",
         },
       }}
-      // position={"relative"}
       p={"20px"}
     >
       <Typography color={"#ff2625"} fontWeight={"600"} fontSize={"1.6rem"}>
@@ -50,7 +49,7 @@ const HeroBanner = () => {
         Exercise
       </Typography>
 
-      <img width={"50%"} src={HeroBannerImage} className="hero-banner-img" alt="" />
+      <img  width={"50%"} src={HeroBannerImage} className="hero-banner-img" alt="" />
     </Box>
   );
 };
