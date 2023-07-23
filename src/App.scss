@@ -1,17 +1,31 @@
-.hero-banner-img{
-    position: absolute;
-    top: 10px;
-    right: 10px;
+.hero-banner-img {
+  position: absolute;
+  top: 10px;
+  right: 10px;
 
-    @media (max-width:1200px){
-        display: none;
-    }
+  @media (max-width: 1200px) {
+    display: none;
+  }
 }
 
-.search-btn{
+.search-btn {
+  &:hover {
+    color: #ff2526;
+    border: 2px solid #ff2526;
+  }
+}
 
-    &:hover{
-        color: #ff2526;
-        border: 2px solid #ff2526;
-    }
+.body-part-icon {
+  transition: transform 0.3s;
+}
+
+.body-part-card:hover .body-part-icon {
+    transform: scale(1.4);
+}
+
+.left-arrow,
+.right-arrow{
+    display: block;
+    margin: 0 50px;
+    cursor: pointer;
 }

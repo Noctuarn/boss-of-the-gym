@@ -1,6 +1,10 @@
-import React from 'react'
+import React, {useState} from 'react'
+import { Pagination } from '@mui/material/Pagination'
+import { Box, Stack, Typography } from '@mui/material'
 
-const Exercises = () => {
+import { fetchData, exerciseOptions } from "../utils/fetchData";
+
+const Exercises = ({exercises, setExercises, bodyPart}) => {
   return (
     <div>
       
