@@ -6,7 +6,7 @@ import SearchExercise from "../components/SearchExercise";
 import Exercises from "../components/Exercises";
 
 const Home = () => {
-  const [exercises, setExercises] = useState([]);
+  const [exercises, setExercises] = useState([]); 
   const [bodyPart, setBodyPart] = useState("all");
 
   return (
