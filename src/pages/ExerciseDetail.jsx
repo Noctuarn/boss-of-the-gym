@@ -7,6 +7,7 @@ import ExerciseVideos from "../components/ExerciseVideos";
 import Detail from "../components/Detail";
 
 
+
 const ExerciseDetail = () => {
   const [exerciseDetail, setExerciseDetail] = useState({});
   const [exerciseVideos, setexerciseVideos] = useState([]);
